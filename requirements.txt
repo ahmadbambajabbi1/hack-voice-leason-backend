@@ -1,0 +1,8 @@
+Flask
+pymongo
+python-dotenv
+cloudinary
+openai-whisper
+transformers
+torch 
+flask-cors 
