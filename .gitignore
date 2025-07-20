@@ -21,7 +21,6 @@ ENV/
 Thumbs.db
 
 # Editor files
-.vscode/
 .idea/
 *.swp
 
