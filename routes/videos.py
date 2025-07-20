@@ -10,19 +10,31 @@ bp = Blueprint('videos', __name__)
 
 @bp.route('/upload', methods=['POST'])
 def upload():
-    file = request.files['video']
-    temp = tempfile.NamedTemporaryFile(delete=False, suffix='.mp4')
-    file.save(temp.name)
-    url = upload_video(temp.name)
-    text = transcribe(url)
-    local_text = translate(text)
-    doc = {
-        'video_url': url,
-        'transcript_en': text,
-        'transcript_local': local_text,
-    }
-    vid_id = videos.insert_one(doc).inserted_id
-    return jsonify({'id': str(vid_id)})
+    try:
+        from models import videos
+        if videos is None:
+            return jsonify({'error': 'MongoDB is not connected. Check your MONGO_URI and server.'}), 500
+        file = request.files['video']
+        # Validate file extension
+        if not file.filename.lower().endswith('.mp4'):
+            return jsonify({'error': 'Only .mp4 files are allowed'}), 400
+        temp = tempfile.NamedTemporaryFile(delete=False, suffix='.mp4')
+        file.save(temp.name)
+        # Transcribe using the local file path before uploading
+        text = transcribe(temp.name)
+        url = upload_video(temp.name)
+        local_text = translate(text)
+        doc = {
+            'video_url': url,
+            'transcript_en': text,
+            'transcript_local': local_text,
+        }
+        vid_id = videos.insert_one(doc).inserted_id
+        return jsonify({'id': str(vid_id)})
+    except Exception as e:
+        import traceback
+        print(traceback.format_exc())
+        return jsonify({'error': str(e)}), 500
 
 @bp.route('/', methods=['GET'])
 def list_videos():

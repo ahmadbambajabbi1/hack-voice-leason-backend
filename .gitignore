@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# HuggingFace/ML models
+models/*
+!models/.gitkeep
+!models/t5-small/
+models/t5-small/*
+!models/t5-small/README.md
+!models/t5-small/config.json
+!models/t5-small/generation_config.json
+
+# Cloudinary cache/temp
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Misc
+*.bak
+*.old 

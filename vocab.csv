@@ -1,2 +1,188 @@
-hello,hallo,Greeting someone
-thank you,danke,Expressing gratitude 
+english,local,description
+hello,I be di,Greeting
+how are you?,I be di?,Asking how someone is doing
+how are you doing?,I be di?,Asking how someone is doing
+I’m fine,Nte mung faa,Responding to greeting
+thank you,Abaraka,Expressing gratitude
+please,Nyininka,Polite request
+excuse me,Kandoo laa,Getting attention
+sorry,Kafu baake,Apologizing
+goodbye,Fo,Parting farewell
+welcome,Kaira dorong,Welcoming someone
+peace be upon you,Salaam aleekum,Islamic greeting
+peace only,Kaira dorong,Typical reply
+good morning,Samaa,Morning greeting
+good afternoon,Tillet,Afternoon greeting
+good night,Suutoo laata,Night greeting
+what is your name?,I to mu le?,Asking name
+my name is…,N to mu le …,Stating name
+how old are you?,I je le?,Age inquiry
+where do you live?,I be suuwo le?,Asking residence
+I live in…,N be suuwo le …,Stating residence
+I’m happy,N be doni,Expressing happiness
+I’m sad,N be nyatoo,Expressing sadness
+I’m tired,N be sooma,Expressing fatigue
+I’m hungry,N be fanga,Expressing hunger
+I’m thirsty,N be nya sooma,Expressing thirst
+I’m sick,N be seebi,Expressing illness
+I’m angry,N be duma,Expressing anger
+I don’t understand,Nte seeta,Expressing lack of understanding
+I understand,N seeta,Expressing understanding
+house,Soo,Place
+home,Soo ke,Place
+school,Sukulu,Place
+market,Lumo,Place
+village,Suuwo,Place
+mosque,Misira,Place of worship
+church,Kirista Iglisa,Place of worship
+river,So,Nature
+lake,Jukuru,Nature
+tree,Sii,Nature
+forest,Boola,Nature
+sun,Na,Environment
+moon,Tilo,Environment
+star,Kaaru,Environment
+sky,Baato,Environment
+earth,Di,Environment
+water,Nyamboo,Nature
+fire,Boroo,Nature
+food,Kafu,General food
+rice,Chubono,Staple
+bread,Bread,Staple
+meat,Nagbulo,Protein
+fish,Jambulo,Protein
+chicken,Kuku,Nagbulo
+vegetables,Karlito,Nature food
+fruit,Bilyo,Nature food
+oil,Benn,Nature product
+salt,Sali,Nature product
+sugar,Sugu,Nature product
+tea,Sia,Nature beverage
+coffee,Kofe,Nature beverage
+eat,Min,Verb
+drink,Min nya,Verb
+sleep,Seeta,Verb
+wake up,Suuma,Verb
+walk,Lataa,Verb
+run,Seeli,Verb
+sit down,Bo,Verb
+stand up,Kango la,Verb
+come here,Ka taa ning,Command
+go away,Ka laa,Command
+stop!,Ka da!,Command
+look!,Kaa!,Command
+listen,Kanko,Command
+speak,Ka seeta,Verb
+write,Sari,Verb
+read,Bankoo,Verb
+think,Songo,Verb
+learn,Siito,Verb
+teach,Siito len,Verb
+work,Diyaa,Verb
+play,Denbu,Verb
+buy,Jelu,Verb
+sell,Selu,Verb
+open,Kafu la,Verb
+close,Kafu laa,Verb
+good,Hanta,Adjective
+bad,Este,Adjective
+big,Kili,Adjective
+small,Kukuto,Adjective
+hot,Soolu,Adjective
+cold,Seeru,Adjective
+new,Siriyo,Adjective
+old,Kondu,Adjective
+fast,Daafa,Adverb
+slow,Sarito,Adverb
+yes,Haa,Affirmative
+no,Hani,Negative
+maybe,Boro be,Hesitation
+always,Soloore,Frequency
+never,Konti,Frequency
+today,Jokoo,Time
+tomorrow,Baro,Time
+yesterday,Bunda,Time
+morning,Samaa,Time
+afternoon,Tillet,Time
+evening,Sebbayaa,Time
+night,Suutoo,Time
+now,Ayaa,Time
+later,Kala,Time
+before,Bu,Sequence
+after,Ka,Sequence
+and,Bata,Conjunction
+or,Kee,Conjunction
+but,Kaa,Conjunction
+because,Fola,Conjunction
+who,Iʼe?,Question word
+what,Kaa?,Question word
+where,Bai?,Question word
+when,Jigi?,Question word
+why,Kanyoo?,Question word
+how,Hoo?,Question word
+yes please,Haa nyininka,Polite affirmative
+no thank you,Hani Abaraka,Polite negative
+man,Kewo,Noun–person
+woman,Musoo,Noun–person
+boy,Den tolo,Noun–person
+girl,Den musoo,Noun–person
+child,Den,Noun–person
+father,Faama,Family member
+mother,Baama,Family member
+brother,Tilo,Family member
+sister,Siso,Family member
+friend,Tiloo,Relationship
+family,Kafo,Relationship group
+love,N ye maring,Emotion/verb
+peace,Kaira,Value
+respekt,Sutura,Value
+community,Kafo,Noun–social
+tradition,Kungo,Culture
+music,Kora la,Cultural expression
+dance,Siiyaa,Cultural activity
+drum,Djembe,Cultural instrument
+hello again,I be di buroo,Repeated greeting
+bless you,Abaraka deeda,Blessing
+good luck,Kaira sake,Farewell wish
+congratulations,Abaraka sannga,Congratulation
+safe journey,Kaira taa,Farewell
+welcome back,Kaira dorong buroo,Return greeting
+be careful,Kangaden doo,Warning
+I love you,N ye mariŋ,Affection
+how are you doing?,I be di?,Asking how someone is doing  
+hope you’re doing fine,Nte mung faa,Expressing hope for well‑being  
+hope you’re doing well,Nte mung jere,Expressing hope for well‑being  
+it’s nice to see you,Kaira ka taa,Welcoming someone warmly  
+long time no see,Kala munu juma!,Reconnecting after a while  
+what’s new?,Kaa n’be la?,Asking for news  
+take care,Kangaden doo,Parting well‑wish  
+get well soon,Nte mung faa baake,Wish for quick recovery  
+congratulations,Abaraka sannga,Expressing congratulations  
+sorry to hear that,Kafu baake sile,Expressing sympathy  
+can you help me?,Nyoo ka yewoo?,Requesting assistance  
+I need help,N be yewoo,Expressing need for help  
+where can I find…?,Kai n te loo…?,Asking for direction  
+how do I say… in Mandinka?,N to mu le… Mandinka la?,Asking for translations  
+please speak slowly,Nyininka seeta daafa,Polite request for pace  
+could you repeat that?,I ka fo de?,Polite request to repeat  
+I don’t know,Nte na seeta,Expressing ignorance  
+that’s great,Kaira kafoo,Expressing praise  
+I agree,N seeta kango,Expressing agreement  
+I disagree,Nte seeta kango,Expressing disagreement  
+what do you think?,I be fanta?,Asking opinion  
+that’s interesting,Ofayanga kili,Expressing interest  
+let’s go together,Ka taa saama,Invitation to go together  
+see you later,Tilo kala,Parting—see you later  
+good luck,Kaira saake,Wish of good fortune  
+have a nice day,Saa munge jere,Well‑wish for the day  
+happy birthday,Sare bi kamantoo,Wish on birthday  
+Merry Christmas,Meri Kiritmaso,Festive greeting  
+Happy New Year,Saa fello baawo,New Year greeting  
+I’m proud of you,N be jomoo,Expressing pride  
+be quiet,Kanyila,Command to be silent  
+watch out walloo!,Fangana doo!,Warning of danger  
+excuse me again,Kandoo laa buroo,Polite re‑entry  
+thank you very much,Abaraka jang,Stronger gratitude  
+you’re welcome,Kaira dorong,Polite response  
+pardon me,Kandoo laa,Polite apology  
+sorry to interrupt,Kafu baake kandoo laa,Apology for interruption  
